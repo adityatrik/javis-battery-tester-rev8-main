@@ -1,0 +1,24 @@
+* {
+  -webkit-print-color-adjust: exact !important;
+  /* Chrome, Safari 6 – 15.3, Edge */
+  color-adjust: exact !important;
+  /* Firefox 48 – 96 */
+  print-color-adjust: exact !important;
+  /* Firefox 97+, Safari 15.4+ */
+}
+
+@font-face {
+  font-family: 'Sony Sketch';
+  src: url('Sony_Sketch_EF.ttf');
+  /* Anda mungkin perlu menyesuaikan jalur file sesuai dengan struktur proyek Anda */
+}
+
+@font-face {
+  font-family: 'Bookman Old Style';
+  src: url('Bookman_Old_Style_Regular.ttf');
+}
+
+
+.font-bookman {
+  font-family: 'Bookman Old Style';
+}
